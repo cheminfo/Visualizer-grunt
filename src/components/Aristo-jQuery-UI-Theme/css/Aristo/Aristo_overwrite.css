@@ -14,8 +14,8 @@
 }
 
 .ui-widget { font-family: inherit; font-size: inherit; }
-.ui-dialog { overflow: auto; }
-.ui-dialog .ui-dialog-content { overflow: auto; }
+.ui-dialog { overflow: visible; }
+.ui-dialog .ui-dialog-content { overflow: visible; }
 
 
 

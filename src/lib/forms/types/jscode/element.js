@@ -1,5 +1,6 @@
 
-define( [ 'jquery', 'src/util/util', 'libs/ace/ace' ], function( $, Util ) {
+define( [ 'require', 'jquery', 'src/util/util', 'ace/ace' ], function( require, $, Util, ace ) {
+
 
 	var FieldConstructor = function() {};
 	
@@ -40,9 +41,9 @@ define( [ 'jquery', 'src/util/util', 'libs/ace/ace' ], function( $, Util ) {
 		var self = this;
 		var editor = ace.edit( self._id );
 
-	    editor.setTheme( "ace/theme/monokai" );
+	    editor.setTheme( "./theme/monokai" );
 	    editor.setPrintMarginColumn( false );
-	    editor.getSession( ).setMode( "ace/mode/javascript" );
+	    editor.getSession( ).setMode( "./mode/javascript" );
 		
 		editor.getSession( ).on( 'change', function(e) {
 			

@@ -32,7 +32,7 @@ define(['modules/default/defaultview', 'src/util/datatraversing', 'src/util/api'
 				def = tpl_html;
 			}
 			
-			require(['./libs/forms2/form'], function(Form) {
+			require(['./forms/form'], function(Form) {
 
 				$.when( def ).done( function( tpl ) { 
 

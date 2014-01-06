@@ -1,5 +1,5 @@
 
-define( [ require, '../../field', 'libs/fancytree/jquery.fancytree' ], function( require, FieldDefaultConstructor ) {
+define( [ require, '../../field', 'fancytree' ], function( require, FieldDefaultConstructor ) {
 
 	var FieldConstructor = function(name) {
 

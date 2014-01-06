@@ -452,7 +452,7 @@ define(['jquery', 'src/util/context', 'src/util/api', 'forms/button', 'src/util/
 			}
 			
 
-			require(['./libs/forms2/form'], function(Form) {
+			require(['./forms/form'], function(Form) {
 
 				var form = new Form({
 				});

@@ -202,7 +202,7 @@ define([	'jquery',
 
 		var options = [];
 		Traversing.getJPathsFromElement(data, options);
-		require(['./libs/forms2/form'], function(Form) {
+		require(['./forms/form'], function(Form) {
 
 			var form = new Form();
 			
